@@ -41,5 +41,8 @@ test:
   database: learn_rail_test
 
 production:
-  url: learn_rail_production
+  <<: *default
+  database: learn_rail_production
+  username: learn-rails
+  password: learn-rails
 
